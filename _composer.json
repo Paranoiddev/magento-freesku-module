@@ -1,0 +1,29 @@
+{
+    "name": "custom\/module_getitemfree",
+    "description": "Get 1 Free",
+    "require": {
+        "php": "~5.5.0|~5.6.0"
+    },
+    "type": "magento2-module",
+    "version": "2.5.0",
+    "license": [
+		"OSL-3.0",
+		"AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+		"psr-4": {
+			"Custom\\Getitemfree\\": ""
+		}
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Custom\/Getitemfree"
+            ]
+        ]
+    }	
+}
