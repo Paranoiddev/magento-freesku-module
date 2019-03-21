@@ -1,4 +1,4 @@
-Magento-freesku-module
+Magento2 -freesku-module
 
 
 This module is to add a gift item or Free item to the cart of a magento 2 website, to offer customers free sample along with each purchase they make. 
